@@ -1,3 +1,8 @@
+import random
+
 def squeeze(food="fries"):
-    print("ketchup on", food)
-    
+    coin = random.random() > 0.5
+    if coin:
+        print("too much ketchup on", food)
+    else:
+        print("a little ketchup on", food)
