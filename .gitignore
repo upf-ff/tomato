@@ -1,0 +1,11 @@
+# Data: ignore everything in data/ except .gitkeep
+data/*
+!data/.gitkeep
+
+# Files that Python and Jupyter create by themselves
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+
+# VS Code's settings for this folder (each person has their own)
+.vscode/
